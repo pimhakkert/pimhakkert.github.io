@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparent Background</title>
+    <style>
+        /* Ensure the body has a transparent background */
+        body {
+            background-color: rgba(0, 0, 0, 0); /* Fully transparent */
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Example of a semi-transparent element */
+        .transparent-box {
+            width: 200px;
+            height: 200px;
+            background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
+            border: 2px solid rgba(0, 0, 0, 0.5); /* Semi-transparent border */
+        }
+    </style>
+</head>
+<body>
+    <div class="transparent-box">
+        Transparent Box
+    </div>
+</body>
+</html>
